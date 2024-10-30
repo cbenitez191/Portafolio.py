@@ -1,0 +1,12 @@
+# Ignorar entorno virtual
+venv/
+
+# Ignorar archivos de configuración de IDE
+.vscode/
+
+# Ignorar archivos PDF
+*.pdf
+
+# Ignorar formatos de imagen
+*.jpg
+*.jpeg

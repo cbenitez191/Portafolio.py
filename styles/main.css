@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=ReadexPro:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Readex Pro', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 50px;
+}
+
+/* Ajuste del contenedor principal */
+.container {
+    max-width: 1200px;
+    /* Aumenta el ancho máximo */
+    margin: auto;
+    padding: 20px;
+    /* Espacio interior adicional */
+}
+
+/* Adaptar el ancho para pantallas pequeñas */
+@media (max-width: 768px) {
+    .container {
+        max-width: 95%;
+        /* Usa casi todo el ancho en pantallas pequeñas */
+    }
+}
+
+/* Centrado de imágenes */
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #0096ff !important;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #15ff00 !important;
+    text-decoration: none;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+/* Ocultar menú, pie de página y encabezado de Streamlit */
+#MainMenu,
+footer,
+header {
+    visibility: hidden;
+}
